@@ -78,8 +78,8 @@ const Navbar = props => {
             Posts
           </LinkItem>
           <LinkItem
-            _target="_blank"
-            href="https://github.com/PatelNeelMahesh?tab=repositories"
+            target="_blank"
+            href="https://github.com/PatelNeelMahesh/Demo_Portfolio"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -106,15 +106,15 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
+                {/* <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
-                </NextLink>
+                </NextLink> */}
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/PatelNeelMahesh/Demo_Portfolio"
                 >
                   View Source
                 </MenuItem>
